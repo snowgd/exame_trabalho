@@ -1,24 +1,312 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
-header {
-    height: 120px;
+.container{
     display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.container3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content:center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.menu-icons{
+    display: flex;
+    background-color: white;
+    height: 90px;
+    width: 100px;
+    align-items: center;
     justify-content: center;
 }
 
-.container {
+.menu-icons1{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border: 1px solid rgb(207, 207, 207);
+    background-color: white;
+    height: 90px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-options{
+    display: flex;
+    background-color: white;
+    height: 90px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .logo{
     display: flex;
-    width: 14%;
+    background-color: white;
+    height: 90px;
+    width: 100px;
+    flex: 0.7;
     align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 40px;
+    width: 250px;
+}
+
+.menu-icons img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+.menu-icons1 img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+.menu-options h3{
+    padding: 10px;
+    margin-left: 0px;
+    font-size: 17px;
+
+}
+
+.menu-options a{
+    text-decoration: none;
+}
+
+.vermelho{
+    padding: 12px 25px 12px 25px;
+    background: red;
+    color: white;
+    border-radius: 100px;
+}
+
+.vermelho a:hover{
+    background: rgb(108, 17, 17);
+    color: red;
+}
+
+.branco{
+    padding: 12px 25px 12px 25px;
+    background: white;
+    color: red;
+    border-radius: 100px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.branco h3:hover{
+    background: rgb(108, 17, 17);
+    color: red;
+}
+
+.menu-text{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.menu-text *, a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-text *:hover, a:hover{
+    color: red;
+}
+
+.menu-text1{
+    display: flex;
+    background-color: white;
+    height: 35px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.menu-text1 *, a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-text1 *:hover, a:hover{
+    color: red;
+}
+
+.artigo1{
+    display: flex;
+    background-color: white;
+    height: 320px;
+    width: 350px;
+    font-size: 12px;
+    margin: 25px 0px 10px 150px;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.artigo1 h1{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.artigo1 h5{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.artigo{
+    display: flex;
+    background-color: white;
+    height: 320px;
+    width: 350px;
+    font-size: 12px;
+    margin: 0px 0px 10px 150px;
+    list-style-type: none;
+}
+
+.artigo h1{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.artigo h5{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.artigo-lado{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.artigo2{
+    display: flex;
+    background-color: white;
+    height: 660px;
+    width: 600px;
+    font-size: 12px;
+    margin: 10px 20px 20px 20px;
+    list-style-type: none;
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.artigo2 img{
+    width: 600px;
+    height: 400px;
+}
+
+.artigo2 h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.artigo2 h5{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.artigo3{
+    display: flex;
+    background-color: white;
+    height: 660px;
+    width: 350px;
+    font-size: 12px;
+    margin: 10px 150px 10px 0px;
+    list-style-type: none;
+}
+
+.artigo3 img{
+    margin: 0;
+    padding: 0;
+}
+
+.ad_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.ad_main h4{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.news_small{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.news_small img{
+    display: flex;
+    width: 300px;
+    height: 180px;
+}
+
+.news_small h5{
+    margin: 15px 0px 0px 0px;
+}
+
+.news_small h4{
+    margin: 15px 0px 0px 0px;
 }
